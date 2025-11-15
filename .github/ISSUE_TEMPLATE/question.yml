@@ -1,0 +1,35 @@
+name: "❓ Question | Soru"
+description: "Ask a question / Bir soru sor"
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Question / Soru
+
+        Please write your question clearly.  
+        Lütfen sorunuzu açık bir şekilde yazın.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your Question / Sorunuz"
+      description: "What do you want to ask? / Ne sormak istiyorsunuz?"
+      placeholder: "Write here / Buraya yazın"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context (Optional) / Bağlam (İsteğe Bağlı)"
+      description: "Provide any extra details. / Ek bilgiler ekleyebilirsiniz."
+      placeholder: "Write here / Buraya yazın"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots or Code (Optional) / Ekran Görüntüsü veya Kod (İsteğe Bağlı)"
+      description: "Add relevant visuals or code snippets. / İlgili görseller veya kod parçaları ekleyin."
+      placeholder: "Paste here / Buraya yapıştırın"

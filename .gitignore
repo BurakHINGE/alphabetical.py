@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+.Env/
+ENV/
+
+# Python caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+pip-wheel-metadata/
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.whl
+*.spec
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/
+.vscode/*
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment variables / secrets ---
+*.env
+*.ini
+*.cfg
+*.toml

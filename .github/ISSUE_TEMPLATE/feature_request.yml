@@ -1,0 +1,44 @@
+name: "✨ Feature Request | Yeni Özellik Talebi"
+description: "Request a new feature / Yeni özellik iste"
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request / Yeni Özellik Talebi
+
+        Please describe the feature you want.  
+        Lütfen istediğiniz özelliği açıklayın.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: "Requested Feature / İstenen Özellik"
+      description: "What do you want added? / Hangi özelliğin eklenmesini istiyorsunuz?"
+      placeholder: "Write here / Buraya yazın"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Why is this needed? / Bu neden gerekli?"
+      description: "Explain the reason. / Nedeni açıklayın."
+      placeholder: "Write here / Buraya yazın"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives (Optional) / Alternatifler (İsteğe Bağlı)"
+      description: "Any alternative solutions? / Alternatif bir çözüm var mı?"
+      placeholder: "Write here / Buraya yazın"
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context / Ek Bağlam"
+      description: "Extra notes, examples / Ek notlar, örnekler"
+      placeholder: "Write here / Buraya yazın"

@@ -16,8 +16,8 @@
 
 | Language / Dil | Link / Bağlantı |
 |----------------|-----------------|
-| 🇬🇧 English  | [English Version](alphabet_sort.py) |
-| 🇹🇷 Türkçe   | [Türkçe Versiyon](alphabet_sort.py) |
+| 🇬🇧 English  | [English Version](alphabetical.py) |
+| 🇹🇷 Türkçe   | [Türkçe Versiyon](alphabetical.py) |
 
 ---
 
